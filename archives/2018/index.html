@@ -32,9 +32,7 @@
               line-height: 2em;
               margin: 0;
               letter-spacing: 2px;
-            }
-            p:nth-of-type(1){
-              margin-top: 50px;
+			  padding-top:40px;
             }
             h3{
               margin: 0;
@@ -44,16 +42,26 @@
               margin-top: -30px;
             }
             a{
-                color: #e67474;
+                color: #75aaf8;
                 text-decoration: none;
-                border:1px solid #e67474;
-                padding: 5px 8px;
-                border-radius:5px;
-                transition: color .2s ease;
+                border:1px solid #75aaf8;
+                padding: 5px 10px;
+                transition: all .2s ease;
+				display: inline-block;
+				transform-origin: center center 0px;
+				position: relative;
             }
+			a:nth-of-type(1){
+				transform: matrix3d(1, 0, 0, 0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+				margin-right:30px;
+			}
+			a:nth-of-type(2){
+				transform: matrix3d(1, 0, 0, -0.001, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+			}
             a:hover {
+			    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
                 color: #fff;
-                background-color:#e67474;
+                background-color:#75aaf8;
             }
             canvas {
                 position: absolute;
@@ -120,7 +128,10 @@
               </svg>
            </h3>
            <h4>Keep Learning Heart</h4>
-           <p><a href="https://blog.shamopoo.top/" target="_blank">Blog</a></p>
+           <p>
+			   <a href="https://blog.shamopoo.top/" target="_blank">Blog</a>
+			   <a href="https://github.com/shamopoo/" target="_blank">Github</a>
+		   </p>
         </div>
         <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script>
         <div class="footer-yiyan" id="lwlhitokoto">
