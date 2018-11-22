@@ -15,6 +15,7 @@
 html, body {
     overflow: hidden;
     margin: 0;
+    background-color: #fffeee;
 }
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
@@ -47,7 +48,7 @@ h4{
   color: #6aaeee;
   margin-top: -30px;
 }
-a{
+/* a{
     color: #75aaf8;
     text-decoration: none;
     border:1px solid #75aaf8;
@@ -61,7 +62,7 @@ a{
 a:hover {
 transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     background-color:rgba(255,255,255,.1);
-}
+} */
 .logo{
     font-size: 40px;
     text-transform: uppercase;
