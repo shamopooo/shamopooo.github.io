@@ -29,7 +29,8 @@ body {
   font-weight: 700;
   font-style: normal;
   line-height: 1;
-  color: #fff;
+  color: transparent;
+  z-index: 999;
   position: relative;
 }
 
