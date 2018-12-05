@@ -94,22 +94,26 @@ body {
 }
 .text-1{
   stroke: #3498db;
-  text-shadow: 0 0 5px #3498db;
+  text-shadow: 0 0 5px rgba(50, 152, 219, 0.45);
+  opacity: .7;
   animation-delay: -1.5s;
 }
 .text-2{
   stroke: #f39c12;
   text-shadow: 0 0 5px #f39c12;
+  opacity: .7;
   animation-delay: -3s;
 }
 .text-3{
   stroke: #e74c3c;
   text-shadow: 0 0 5px #e74c3c;
+  opacity: .7;
   animation-delay: -4.5s;
 }
 .text-4{
   stroke: #9b59b6;
   text-shadow: 0 0 5px #9b59b6;
+  opacity: .7;
   animation-delay: -6s;
 }
 
