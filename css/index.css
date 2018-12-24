@@ -73,65 +73,10 @@ body {
   animation:glitch .3s cubic-bezier(.25,.46,.45,.94) reverse both infinite;
 }
 
-.logo{
-    font-size: 40px;
-    text-transform: uppercase;
-    fill: none;
-    stroke: #3594ee;
-    stroke-width: 1px;
-    stroke-dasharray: 90 310;
-    font-family: 'Roboto', 'Pingfang SC', 'Microsoft Yahei', sans-serif;
-    font-weight: 700;
-}
-.svg-text{
-  font-size: 40px;
-  font-weight: bold;
-  text-transform: uppercase;
-  fill: none;
-  stroke-width: 2px;
-  stroke-dasharray: 90 310;
-  animation: stroke 6s infinite linear;
-}
-.text-1{
-  stroke: #3498db;
-  text-shadow: 0 0 5px rgba(50, 152, 219, 0.45);
-  opacity: .7;
-  animation-delay: -1.5s;
-}
-.text-2{
-  stroke: #f39c12;
-  text-shadow: 0 0 5px #f39c12;
-  opacity: .7;
-  animation-delay: -3s;
-}
-.text-3{
-  stroke: #e74c3c;
-  text-shadow: 0 0 5px #e74c3c;
-  opacity: .7;
-  animation-delay: -4.5s;
-}
-.text-4{
-  stroke: #9b59b6;
-  text-shadow: 0 0 5px #9b59b6;
-  opacity: .7;
-  animation-delay: -6s;
-}
-
-@keyframes stroke {
-100% {
-  stroke-dashoffset: -400;
-}
-}
-.footer-yiyan{
-  position: absolute;
-  text-align:center;
-  width: 80%;
-  bottom:0;
-  margin:10px 10%;
-  padding:10px;
-  user-select: none;
-  color:#969696;
-font-size:14px;
+main {
+  background-color: initial;
+  padding: 0;
+  height: 100vh;
 }
 .row {
     display: flex;
@@ -213,6 +158,7 @@ font-size:14px;
     main {
       background-color: initial;
       padding: 0;
+      height: 100vh;
     }
 
   
