@@ -174,7 +174,11 @@ main {
       height: 100vh;
     }
 
-  
+      section{
+              position: relative;
+            top: 50%;
+            transform: translate(0, -50%);
+      }
     .column {
       flex: 0 0 50%;
       max-width: 50%;
