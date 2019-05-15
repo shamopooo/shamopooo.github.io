@@ -47,7 +47,6 @@ body {
   z-index: 999;
   position: relative;
 }
-
 .bubble .bubble-value:before {
   color: #0ff;
   z-index: -1;
