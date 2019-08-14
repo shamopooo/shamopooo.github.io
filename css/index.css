@@ -6,6 +6,8 @@ html, body {
 body {
     font-family: 'Open Sans', 'Helvetica Neue', 'Hiragino Sans GB', 'LiHei Pro', Arial, sans-serif;
     color: #333;
+    min-width: 100vw;
+    min-height: 100vh;
     cursor: url("../sword.cur"),auto;
 }
 #wrapper {
