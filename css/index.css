@@ -31,6 +31,7 @@ body {
   top: -10px;
   width: 30px;
   height: 30px;
+  display: none;
   background-position: 50%;
   background-size: contain;
   background-repeat: no-repeat;
