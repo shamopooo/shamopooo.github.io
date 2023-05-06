@@ -9,6 +9,7 @@ body {
     min-width: 100vw;
     min-height: 100vh;
     cursor: url("../sword.cur"),auto;
+    background: rgba(29, 30, 32,0.9);
 }
 #wrapper {
     position: absolute;
